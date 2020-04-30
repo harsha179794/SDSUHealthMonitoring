@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sdsuhealthmonitoring">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-feature
+        android:name="android.hardware.SensorEventListener"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.Sensor"
+        android:required="false" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WorkOut.WorkOutActivity">
+        </activity>
+        <activity android:name=".Nutrition.NutritionActivity">
+        </activity>
+        <activity android:name=".StepTracker.SensorActivity">
+        </activity>
+        <activity android:name=".MedicineRemainder.MedicinesRemainder">
+        </activity>
+        <activity android:name=".WaterRemainder.WaterRemainder">
+        </activity>
+        <activity android:name=".StepCounter">
+        </activity>
+        <activity android:name=".SignUp.SDSUSignup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BMI.SDSUBMIActivity">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".WaterRemainder.Notification_Receiver" />
+        <receiver android:name=".MedicineRemainder.Medicine_Notification_Receiver" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

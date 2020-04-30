@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "143171520173",
+    "firebase_url": "https://sdsu-health-app-c21e7.firebaseio.com",
+    "project_id": "sdsu-health-app-c21e7",
+    "storage_bucket": "sdsu-health-app-c21e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143171520173:android:f945a8465a329326",
+        "android_client_info": {
+          "package_name": "com.example.sdsuhealthmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143171520173-ba873dmqnspk8lo376v2166q3hi7cj6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sdsuhealthmonitoring",
+            "certificate_hash": "c1eb335efb4b47c0d94c333ce7f5a446c5116d28"
+          }
+        },
+        {
+          "client_id": "143171520173-oq73k5tk0s7bgacdout47s3adfl3lhkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sdsuhealthmonitoring",
+            "certificate_hash": "edabae5dbed33043c6a6a9ef78be88a93bcaef00"
+          }
+        },
+        {
+          "client_id": "143171520173-tg3q40796g9h23nj61n0tqh2kr95klt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsc0Y08Cy7UUcay32xxt2vz855TBW9Dzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143171520173-tg3q40796g9h23nj61n0tqh2kr95klt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
